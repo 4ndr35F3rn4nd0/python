@@ -1,0 +1,15 @@
+# App compatible con Python 2
+
+# Eliminamos el uso de 'typing' ya que no es compatible con Python 2
+
+def saludar(nombres):
+    # Usamos un bucle para iterar sobre la lista de nombres
+    for nombre in nombres:
+        print "Hola, {} 👋".format(nombre)  # Usamos .format() en lugar de f-string
+
+def main():
+    nombres = ["Ana", "Luis", "Carlos"]
+    saludar(nombres)
+
+if __name__ == "__main__":
+    main()
