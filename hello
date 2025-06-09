@@ -1,0 +1,12 @@
+from typing import List
+
+def saludar(nombres: List[str]) -> None:
+    for nombre in nombres:
+        print(f"Hola, {nombre} 👋")  # f-string solo en Python 3.6+
+
+def main():
+    nombres = ["Andres", "Enablement", "Red Hat"]
+    saludar(nombres)
+
+if __name__ == "__main__":
+    main()
