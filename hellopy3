@@ -5,7 +5,7 @@ def saludar(nombres: List[str]) -> None:
         print(f"Hola, {nombre} 👋")  # f-string solo en Python 3.6+
 
 def main():
-    nombres = ["Andres", "Enablement", "Red Hat"]
+    nombres = ["Andres", "Enablement", "Red Hat", "Python 3"]
     saludar(nombres)
 
 if __name__ == "__main__":
