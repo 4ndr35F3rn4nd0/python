@@ -8,7 +8,7 @@ def saludar(nombres):
         print "Hola, {} 👋".format(nombre)  # Usamos .format() en lugar de f-string
 
 def main():
-    nombres = ["Ana", "Luis", "Carlos"]
+    nombres = ["Red Hat", "Enablement", "Andres"]
     saludar(nombres)
 
 if __name__ == "__main__":
