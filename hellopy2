@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # App compatible con Python 2
 
 # Eliminamos el uso de 'typing' ya que no es compatible con Python 2
